@@ -1,0 +1,59 @@
+.hex {
+    display: flex;
+    width: 112px;
+    height: 112px;
+    margin-left: 43px;
+    margin-right: 43px;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: larger;
+    border: 2px solid black;
+    border-radius: 100px;
+    position: relative;
+}
+
+.hex:hover {
+    border: 2px solid blue;
+}
+
+.hex.x0.y1,
+.hex.x0.y49,
+.hex.x18.y36,
+.hex.x18.y38,
+.hex.x18.y40,
+.hex.x18.y42,
+.hex.x18.y44,
+.hex.x18.y46,
+.hex.x18.y48,
+.hex.x18.y50,
+
+.hex.x19.y35,
+.hex.x19.y36,
+.hex.x19.y37,
+.hex.x19.y38,
+.hex.x19.y39,
+.hex.x19.y40,
+.hex.x19.y41,
+.hex.x19.y42,
+.hex.x19.y43,
+.hex.x19.y44,
+.hex.x19.y45,
+.hex.x19.y46,
+.hex.x19.y47,
+.hex.x19.y48,
+.hex.x19.y49,
+.hex.x19.y50,
+
+.hex.x20.y35,
+.hex.x20.y37,
+.hex.x20.y39,
+.hex.x20.y41,
+.hex.x20.y43,
+.hex.x20.y45,
+.hex.x20.y47,
+.hex.x20.y49
+{
+    border: none;
+    opacity: 0;
+}
