@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.7a69f774.css",
-    "main.js": "/static/js/main.0f19f967.js",
-    "static/js/787.d0e4c618.chunk.js": "/static/js/787.d0e4c618.chunk.js",
-    "static/media/map.jpg": "/static/media/map.81c28eb24c36313bc017.jpg",
-    "index.html": "/index.html",
-    "main.7a69f774.css.map": "/static/css/main.7a69f774.css.map",
-    "main.0f19f967.js.map": "/static/js/main.0f19f967.js.map",
-    "787.d0e4c618.chunk.js.map": "/static/js/787.d0e4c618.chunk.js.map"
+    "main.css": "/forbidden-game/static/css/main.e0971231.css",
+    "main.js": "/forbidden-game/static/js/main.267e1806.js",
+    "static/js/787.d0e4c618.chunk.js": "/forbidden-game/static/js/787.d0e4c618.chunk.js",
+    "static/media/map.jpg": "/forbidden-game/static/media/map.81c28eb24c36313bc017.jpg",
+    "index.html": "/forbidden-game/index.html",
+    "main.e0971231.css.map": "/forbidden-game/static/css/main.e0971231.css.map",
+    "main.267e1806.js.map": "/forbidden-game/static/js/main.267e1806.js.map",
+    "787.d0e4c618.chunk.js.map": "/forbidden-game/static/js/787.d0e4c618.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7a69f774.css",
-    "static/js/main.0f19f967.js"
+    "static/css/main.e0971231.css",
+    "static/js/main.267e1806.js"
   ]
 }
