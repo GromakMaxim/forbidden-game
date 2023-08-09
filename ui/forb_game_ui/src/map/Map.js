@@ -1,5 +1,6 @@
 import {Component} from "react";
 import Row from "./row/Row";
+import RightMenu from "./right_menu/RightMenu";
 
 export default class Map extends Component {
     CELLS_NUMBER_X;
@@ -13,7 +14,10 @@ export default class Map extends Component {
         this.CELLS_NUMBER_X = 21;
         this.CELLS_NUMBER_Y = 50;
 
-        this.state = {activeHex: null}
+        this.state = {
+            activeHex: null,
+            rightMenuOpened: false,
+        }
 
         this.selectHex = this.selectHex.bind(this);
     }
@@ -22,15 +26,23 @@ export default class Map extends Component {
         event.preventDefault();
 
         this.setState({
-            activeHex: event.target.id
+            activeHex: event.target.id,
+            rightMenuOpened: !this.state.rightMenuOpened,
         })
+    }
+
+    rightMenuOpen(event) {
+        event.preventDefault();
     }
 
     render() {
         return (
-            <div className={"map container"}>
-                {this.drawMap()}
-            </div>
+            <>
+                <div className={"map container"}>
+                    {this.drawMap()}
+                </div>
+                <RightMenu opened={this.state.rightMenuOpened}/>
+            </>
         );
     }
 
