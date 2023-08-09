@@ -18,7 +18,15 @@ export default class Row extends Component{
 
         let result = [];
         for (let x = 0; x < this.props.maxCellsNumber; x++) {
-            result.push(<Hexagon key={x + ":" + this.props.y} x={x} y={this.props.y} col={columnCount}/>)
+            result.push(<Hexagon
+                key={x + ":" + this.props.y}
+                x={x}
+                y={this.props.y}
+                col={columnCount}
+                activeHex={this.props.activeHex}
+                selectHex={this.props.selectHex}
+
+            />)
 
             columnCount+=2;
         }

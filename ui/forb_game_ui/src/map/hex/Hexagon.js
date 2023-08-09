@@ -1,11 +1,25 @@
 import {Component} from "react";
 
 export default class Hexagon extends Component {
+
+    clickHandle(event, id){
+        this.props.selectHex(event, id)
+    }
+
     render() {
-        let classname = "cell hex x" + this.props.x + " y" + this.props.y + " col"+this.props.col
+        let id = "x" + this.props.x + "y" + this.props.y;
+        let classname = "cell hex x" + this.props.x + " y" + this.props.y + " col" + this.props.col;
+
+        if (id === this.props.activeHex){
+            classname = classname + " selected";
+        }
+
+
         return (
-            <div className={classname}>
-                <div>{this.props.x} : {this.props.y} <br/>col{this.props.col}</div>
+            <div
+                className={classname}
+                id={id}
+                onClick={e=>this.clickHandle(e, id)}>
             </div>
         );
     }

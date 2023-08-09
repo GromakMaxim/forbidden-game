@@ -11,10 +11,14 @@
     border: 2px solid black;
     border-radius: 100px;
     position: relative;
+
+    cursor: pointer;
 }
 
-.hex:hover {
-    border: 2px solid blue;
+.hex > div {
+    display: none;
+    position: relative;
+    cursor: pointer;
 }
 
 .hex.x0.y1,
@@ -56,4 +60,8 @@
 {
     border: none;
     opacity: 0;
+}
+
+.hex.selected{
+    border: 2px solid blue;
 }
