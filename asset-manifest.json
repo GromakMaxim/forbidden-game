@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/forbidden-game/static/css/main.e0971231.css",
-    "main.js": "/forbidden-game/static/js/main.267e1806.js",
+    "main.css": "/forbidden-game/static/css/main.4f21234c.css",
+    "main.js": "/forbidden-game/static/js/main.0ad9dbbb.js",
     "static/js/787.d0e4c618.chunk.js": "/forbidden-game/static/js/787.d0e4c618.chunk.js",
     "static/media/map.jpg": "/forbidden-game/static/media/map.81c28eb24c36313bc017.jpg",
     "index.html": "/forbidden-game/index.html",
-    "main.e0971231.css.map": "/forbidden-game/static/css/main.e0971231.css.map",
-    "main.267e1806.js.map": "/forbidden-game/static/js/main.267e1806.js.map",
+    "main.4f21234c.css.map": "/forbidden-game/static/css/main.4f21234c.css.map",
+    "main.0ad9dbbb.js.map": "/forbidden-game/static/js/main.0ad9dbbb.js.map",
     "787.d0e4c618.chunk.js.map": "/forbidden-game/static/js/787.d0e4c618.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e0971231.css",
-    "static/js/main.267e1806.js"
+    "static/css/main.4f21234c.css",
+    "static/js/main.0ad9dbbb.js"
   ]
 }
