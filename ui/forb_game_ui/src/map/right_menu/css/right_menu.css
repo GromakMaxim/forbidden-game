@@ -1,4 +1,4 @@
-.container.right_menu{
+.container.right_menu {
     display: flex;
 
     height: 100vh;
@@ -10,7 +10,7 @@
     animation-name: slideout;
 }
 
-.container.right_menu.opened{
+.container.right_menu.opened {
     width: 30vw;
     animation-duration: 2s;
     animation-name: slidein;

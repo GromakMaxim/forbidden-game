@@ -6,11 +6,11 @@ import './map/css/row.css'
 import './map/css/column.css'
 
 function App() {
-  return (
-    <div className="App">
-      <Map/>
-    </div>
-  );
+    return (
+        <div className="App">
+            <Map/>
+        </div>
+    );
 }
 
 export default App;

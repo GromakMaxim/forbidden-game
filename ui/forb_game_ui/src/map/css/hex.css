@@ -31,7 +31,6 @@
 .hex.x18.y46,
 .hex.x18.y48,
 .hex.x18.y50,
-
 .hex.x19.y35,
 .hex.x19.y36,
 .hex.x19.y37,
@@ -48,7 +47,6 @@
 .hex.x19.y48,
 .hex.x19.y49,
 .hex.x19.y50,
-
 .hex.x20.y35,
 .hex.x20.y37,
 .hex.x20.y39,
@@ -56,12 +54,11 @@
 .hex.x20.y43,
 .hex.x20.y45,
 .hex.x20.y47,
-.hex.x20.y49
-{
+.hex.x20.y49 {
     border: none;
     opacity: 0;
 }
 
-.hex.selected{
+.hex.selected {
     border: 2px solid blue;
 }

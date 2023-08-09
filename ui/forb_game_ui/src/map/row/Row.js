@@ -1,7 +1,7 @@
 import {Component} from "react";
 import Hexagon from "../hex/Hexagon";
 
-export default class Row extends Component{
+export default class Row extends Component {
 
     render() {
         let classname = "row y" + this.props.y;
@@ -13,7 +13,6 @@ export default class Row extends Component{
             classname = classname + " even";
             columnCount = 0;
         }
-
 
 
         let result = [];
@@ -28,9 +27,8 @@ export default class Row extends Component{
 
             />)
 
-            columnCount+=2;
+            columnCount += 2;
         }
-
 
 
         return (
